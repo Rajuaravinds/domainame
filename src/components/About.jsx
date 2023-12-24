@@ -47,9 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       Hi, I am someone who's very much interested in IT security. I have spent many hours on tryhackme and hackthebox platforms practicing and implementing my developed skills. 
-       And Also About 1 year of experience as a Splunk Support Engineer and Splunk developer. Worked in Splunk Support tickets as Splunk Support Engineer.
-       Developed various Splunk App for Client / Internal Analytical and Monitoring purpose
+      I have a deep passion for IT security and have dedicated extensive hours to honing my skills on platforms like TryHackMe and HackTheBox. Over the past year, I've gained valuable experience as  Splunk Engineer and developer, Contributed to the development of various Splunk use cases primarily focused on business analytics and security monitoring.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
