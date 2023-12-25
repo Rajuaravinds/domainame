@@ -31,10 +31,15 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    //MSy1rh_5MzDMwdoTS -public key
+    //service_8gb3fel
+    //template_97yrgn4
+
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_8gb3fel',
+        'template_97yrgn4',
         {
           from_name: form.name,
           to_name: "Rajuaravind Sankar",
@@ -42,7 +47,7 @@ const Contact = () => {
           to_email: "rajuaravinds@hotmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'MSy1rh_5MzDMwdoTS'
       )
       .then(
         () => {
