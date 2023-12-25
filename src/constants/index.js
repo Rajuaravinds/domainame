@@ -70,22 +70,6 @@ const services = [
     icon: backend,
   },
   {
-    title: "Top 4% of Tryhackme Users",
-    icon: creator,
-  },
-  {
-    title: "#590 Global Rank in HacktheBox",
-    icon: creator,
-  },
-  {
-    title: "Business English Certificate (BEC)",
-    icon: backend,
-  },
-  {
-    title: "Splunk Accredited Security Sales Rep 1",
-    icon: mobile,
-  },
-  {
     title: "Splunk Support Engineer (SSE)",
     icon: web,
   },
