@@ -66,4 +66,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.pink-orange-gradient {
+  background-image: linear-gradient(to right, #FF66B2, #FFA500);
+}
 /* Add other styles as needed */
