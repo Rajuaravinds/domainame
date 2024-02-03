@@ -36,10 +36,11 @@ body {
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
-.orange-text-gradient {
-  background: -webkit-linear-gradient(to top, #f12711, #f5af19);
+.red-text-gradient {
+  background: -webkit-linear-gradient(to top, #ff0000, #ff4500); /* You can adjust the color codes as needed */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .green-text-gradient {
